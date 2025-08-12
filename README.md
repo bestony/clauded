@@ -19,6 +19,11 @@ Install [Docker](https://www.docker.com/products/docker-desktop/) (and [WSL](htt
 alias clauded='docker run --rm -it -e ANTHROPIC_AUTH_TOKEN="${ANTHROPIC_AUTH_TOKEN}" -e ANTHROPIC_BASE_URL="${ANTHROPIC_BASE_URL}" -e ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY}" -v ${PWD}:/app -v ~/.claude:/home/$(whoami)/.claude -u $(id -u):$(id -g)  bestony/clauded'
 ```
 
+then, run Claude Code commands like:
+
+```bash
+clauded
+```
 ## Prerequisites
 
 - Docker installed on your system                                                                                                                     - Anthropic API key (get one from [Anthropic Console](https://console.anthropic.com/))
