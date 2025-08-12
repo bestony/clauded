@@ -67,3 +67,7 @@ This project is open source. Please check the Claude Code documentation for Anth
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+## Inspiration
+This project is inspired by [Rails Docked](https://github.com/rails/docked)
